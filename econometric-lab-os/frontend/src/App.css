@@ -1,0 +1,20 @@
+.App {
+  min-height: 100vh;
+  background-color: hsl(var(--background));
+}
+
+.chart-container {
+  transition: transform 0.2s ease-out;
+}
+
+.chart-container:hover {
+  transform: scale(1.02);
+}
+
+.stat-card {
+  transition: all 0.2s ease-out;
+}
+
+.stat-card:hover {
+  border-color: hsl(var(--primary) / 0.5);
+}
